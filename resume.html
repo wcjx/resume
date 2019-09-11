@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Resume</title>
+    <style>
+      header {
+        margin: auto 0;
+        text-align: center;
+        font-family: Arial, "黑体";
+      }
+      main {
+        margin-left: 32px;
+        margin-right: 32px;
+        font-family: Arial, "黑体";
+      }
+      hr {
+        height: 1px;
+        border-width: 0;
+        color: rgb(25, 118, 210);
+        background-color: rgb(25, 118, 210);
+      }
+      img {
+        position: absolute;
+        top: 8px;
+        right: 64px;
+      }
+      h3 {
+        margin-bottom: 8px;
+      }
+      li {
+        line-height: 150%;
+        margin-bottom: 4px;
+      }
+      ul {
+        padding-left: 24px;
+        margin: 8px 4px;
+      }
+      .grow-box {
+        flex-grow: 1;
+      }
+      .head {
+        display: flex;
+        margin-left: 4px;
+        margin-right: 4px;
+      }
+      p {
+        margin: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>姓名</h1>
+      <p>156-0000-0000 | abc@email.com</p>
+      <img src="./photo.jpg" width="70" height="100" />
+    </header>
+    <main>
+      <h3>教育经历</h3>
+      <hr />
+      <div class="head">
+        <div>
+          <strong>
+            A大学
+          </strong>
+        </div>
+        <div class="grow-box"></div>
+        <div>2017年9月-至今</div>
+      </div>
+      <p>
+        A专业在读。
+      </p>
+      <div class="head">
+        <div>
+          <strong>
+            B大学
+          </strong>
+        </div>
+        <div class="grow-box"></div>
+        <div>2013年9月-2017年6月</div>
+      </div>
+      <p>B专业学士，专业排名1/50，XX奖学金。</p>
+      <h3>技术能力</h3>
+      <hr />
+      <p>了解面向对象编程，理解函数式编程思想，能够应用常见数据结构。</p>
+      <ul>
+        <li>编程语言：JavaScript, HTML/CSS</li>
+        <li>
+          Web开发：React, Redux, 微信小程序
+        </li>
+      </ul>
+      <h3>项目经历</h3>
+      <hr />
+      <ul>
+        <li>
+          项目A。
+        </li>
+        <li>
+          项目B。
+        </li>
+        <li>项目C。</li>
+      </ul>
+      <p>
+        GitHub主页（https://github.com/...）。
+      </p>
+      <h3>研究经历</h3>
+      <hr />
+      <ul>
+        <li>A</li>
+        <li>B</li>
+        <li>
+          C
+        </li>
+      </ul>
+      <h3>其他技能</h3>
+      <hr />
+      <ul>
+        <li>英语</li>
+        <li>办公软件</li>
+        <li>其他</li>
+      </ul>
+      <h3>学生工作</h3>
+      <hr />
+      <ul>
+        <li>A</li>
+        <li>B</li>
+      </ul>
+    </main>
+  </body>
+</html>
