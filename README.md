@@ -3,4 +3,4 @@
 # 模板使用
 将html文件中相应内容替换后，用浏览器打开打印，可另存为PDF（需要勾选背景图片）。模板中的条目更适合校园招聘，可根据自己情况修改。
 # 效果图
-![Resume.png](./Resume.png)
+<img src='./Resume.png' heigt='480' width='342' />
